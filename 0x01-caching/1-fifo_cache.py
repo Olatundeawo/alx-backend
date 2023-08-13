@@ -6,7 +6,7 @@ from collections import OrderedDict
 from base_caching import BaseCaching
 
 
-class FIFOCache(BasicCaching):
+class FIFOCache(BaseCaching):
     """LIFOCache"""
     def __init__(self):
         super().__init__()
