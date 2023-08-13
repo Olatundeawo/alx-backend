@@ -3,7 +3,7 @@
 LIFO Caching module
 """
 from collections import OrderedDict
-BasicCaching = __import__('base_caching').BaseCaching
+from base_caching import BaseCaching
 
 
 class FIFOCache(BasicCaching):
