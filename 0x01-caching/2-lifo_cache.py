@@ -3,7 +3,7 @@
 LIFO Caching module
 """
 
-BasicCaching = __import__('BaseCaching').BaseCaching
+BasicCaching = __import__('base_caching').BaseCaching
 
 
 class LIFOCache(BasicCaching):
